@@ -21,14 +21,16 @@ THE SOFTWARE.
 */
 
 /*
-I did not create most of the functions of the game (gravity, movement collisions, etc), But i did add a few functions, such as checkpoints, and multiple 'unlock' functions. */
+I did not create most of the functions of the game (gravity, movement collisions, etc), But i did add a few functions, such as 
+checkpoints, and multiple 'unlock' functions. */
 
 var deaths = 0; //death counter
-//below is the map variables, used to create the ohysical map, the player spawn location and color, and the gravity, velocity limits, and player movement speed. The first map was barely altered, but the other two maps are completely original. The maps are created through tiling, and I am not intelligent enough to create moving tiles.
+//below is the map variables, used to create the ohysical map, the player spawn location and color, gravity, velocity limits, and player movement speed. The first map was barely altered, but the other two maps are completely original. The maps are created through tiling, and I am not intelligent enough to create moving tiles.
 var map = {
 
     tile_size: 16,
-  //size of each tile; the larger the value, the larger the tiles are. The movement speed of the player does not scale with the tile size.
+  //size of each tile; the larger the value, the larger the tiles are. 
+  //The movement speed of the player does not scale with the tile size.
     keys: [
         {id: 0, colour: '#333', solid: 0},
         {id: 1, colour: '#888', solid: 0},
