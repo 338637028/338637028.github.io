@@ -115,14 +115,14 @@ var map = {
     
     gravity: {
         x: 0,
-        y: 0.3
+        y: 0.5
     },
     
     /* Velocity limits */
 
     vel_limit: {
         x: 2,
-        y: 16
+        y: 12
     },
 
     /* Movement speed when the key is pressed */
