@@ -4,3 +4,5 @@ I originally built this website in glitch, then exported it to github once compl
 
 Here it is:
 ## [Portfolio](https://338637028.github.io/)
+
+###### [Header art original image](https://www.pixiv.net/en/artworks/85062072)
